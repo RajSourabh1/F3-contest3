@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: gainsboro;
+    margin: 0;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px;
+}
+.option{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15%;
+}
+.input{
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+input{
+    width: 80%;
+    border: none;
+    background: none;
+    color: gainsboro;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#btn{
+    font-size: 20px;
+    padding: 5px;
+    width: 80px;
+    margin-top: 20px;
+}

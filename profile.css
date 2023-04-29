@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: gainsboro;
+    margin: 0;
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    padding: 15px;
+}
+.option{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+.container{
+    margin-left: 25px;
+}
+.container div{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#btn{
+    width: 80px;
+    padding: 5px;
+}
